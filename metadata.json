@@ -1,0 +1,6 @@
+{
+  "name": "NutriTrack - Diet & Weight Tracker",
+  "description": "Daily weight and calorie tracker with AI-powered meal recommendations and nutrition analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

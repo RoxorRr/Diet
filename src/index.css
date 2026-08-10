@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #F8F5F2;
+    color: #1A1A1A;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Newsreader', Georgia, serif;
+  }
+}
+
+/* Custom Editorial Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F5F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5D0CB;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1A1A1A;
+}
